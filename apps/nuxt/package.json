@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^4.18.1",
+    "api": "*"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  }
+}
